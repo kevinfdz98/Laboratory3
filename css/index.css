@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+/* mobile devices view*/
+
+@media(max-width: 480px) {
+
+	.logo > img {
+  			width: 45px; 
+         height: 45px; 
+         display: block; 
+         text-indent: -9999px;
+	}
+
+
+	div{
+		display:flex;
+		justify-content: center;
+
+	}
+h1 {
+  display : flex; 
+  text-align: center; 
+  justify-content: center;
+}
+
+/*nav{
+  background-color: #484848;
+}*/
+	.hamburger{
+		background-color : rgb(77, 77, 77);
+		color : white;
+		margin : 5px;
+		padding : 8px;
+		display : flex;
+		justify-content : flex-end;
+	}
+
+	.menu{
+		display: none;
+	}
+
+
+h2{
+  	display : flex;
+		justify-content : center;
+}
+
+	section{
+		border-style : outset;
+    border-width : 3px;  
+		border-color : rgb(190, 188, 188);
+		margin : 10px 5px;
+    padding : 5px;
+		text-align : justify;
+	}
+  /*.product{
+    display:flex;
+		justify-content: center;
+    text-align : justify;
+  }*/
+
+  .fas{
+    display:flex;
+		justify-content: center;
+  }
+
+	.social{
+
+			list-style: none;
+			display:flex;
+			flex-direction: row;
+			justify-content: space-around;
+			border-top-style: outset;
+			border-width: 2px;
+			border-color: #D3D3D3;
+			margin-top: 5px;
+			padding:20px;
+
+	}
+
+  .product-c{
+    display:none;
+  }
+
+}
+/*tablet view*/
+@media(min-width : 481px) and (max-width : 1024px)
+{
+ 	.logo > img {
+     border :  10px;
+  			width: 55px; 
+         height: 55px; 
+         display: flex; 
+         /*text-indent: -9999px;*/
+	}
+
+  header {
+  display : flex; 
+  text-align: center; 
+  justify-content: space-evenly;
+}
+
+	.hamburger{
+		background-color : rgb(77, 77, 77);
+		color : white;
+		margin : 5px;
+		padding : 8px;
+		display : flex;
+		justify-content : flex-end;
+	}
+
+	.menu{
+		display: none;
+	}
+
+
+h2{
+  	display : flex;
+		justify-content : center;
+}
+
+	section{
+		border-style : outset;
+    border-width : 3px;  
+		border-color : rgb(190, 188, 188);
+		margin : 10px 5px;
+    padding : 5px;
+		text-align : justify;
+	}
+
+    .fas{
+    display:flex;
+		justify-content: center;
+  }
+
+  	.social{
+
+			list-style: none;
+			display:flex;
+			flex-direction: row;
+			justify-content: space-around;
+			border-top-style: outset;
+			border-width: 2px;
+			border-color: #D3D3D3;
+			margin-top: 5px;
+			padding:20px;
+
+	}
+}
+/*larger screens view*/
+
+@media(min-width : 1025px)
+{
+  .logo > img {
+     border :  10px;
+  			width: 55px; 
+         height: 55px; 
+         display: flex; 
+         /*text-indent: -9999px;*/
+	}
+
+  header {
+  display : flex; 
+  text-align: center; 
+  justify-content: space-evenly;
+}
+
+	.hamburger{
+		
+		display : none;
+		
+	}
+ /* nav{
+    display : flex;
+    flex-direction : row; 
+    text-align : flex-end;
+  }*/
+
+  /*
+  .menu{
+    list-style : none;
+    display : flex;
+    flex-direction : row; 
+    text-align : right;
+    justify-content :space-evenly;
+    background-color : rgb(77, 77, 77);
+		color : white;
+		margin : 5px;
+		padding : 8px;
+  }
+*/
+nav{
+    display : flex;
+    text-align : center;
+    justify-content :flex-end;
+    background-color : rgb(77, 77, 77);
+		color : white;
+		margin : 5px;
+		padding : 8px;
+}
+.menu{
+  list-style : none;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+}
+  main{
+    display:flex;
+    flex-direction : row;
+    justify-content :space-evenly;
+    text-align : center;
+  }
+
+  	section{
+		border-style : outset;
+    border-width : 3px;  
+		border-color : rgb(190, 188, 188);
+		margin : 10px 5px;
+    padding : 5px;
+		text-align : center;
+
+	}
+
+  h2{
+  	display : flex;
+		justify-content : center;
+}
+
+ .fas{
+    display:flex;
+		justify-content: center;
+  }
+
+  .social{
+
+			list-style: none;
+			display:flex;
+			flex-direction: row;
+			justify-content: space-around;
+			border-top-style: outset;
+			border-width: 2px;
+			border-color: #D3D3D3;
+			margin-top: 5px;
+			padding:20px;
+
+	}
+}
